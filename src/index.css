@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-gray-800 antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gold-500 hover:bg-gold-600 text-navy-900 font-bold px-6 py-3 rounded transition-all duration-200 inline-block tracking-wide uppercase text-sm;
+  }
+  .btn-outline {
+    @apply border-2 border-gold-500 text-gold-500 hover:bg-gold-500 hover:text-navy-900 font-bold px-6 py-3 rounded transition-all duration-200 inline-block tracking-wide uppercase text-sm;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-heading font-bold text-navy-800;
+  }
+  .section-subtitle {
+    @apply text-gold-500 font-semibold uppercase tracking-widest text-sm;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden;
+  }
+  .nav-link {
+    @apply text-gray-100 hover:text-gold-400 font-medium transition-colors duration-200 text-sm tracking-wide;
+  }
+}
+
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.65s ease-out, transform 0.65s ease-out;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .reveal-left {
+    opacity: 0;
+    transform: translateX(-32px);
+    transition: opacity 0.65s ease-out, transform 0.65s ease-out;
+  }
+  .reveal-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .reveal-right {
+    opacity: 0;
+    transform: translateX(32px);
+    transition: opacity 0.65s ease-out, transform 0.65s ease-out;
+  }
+  .reveal-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-down { animation: fadeInDown 0.6s ease-out both; }
+.animate-fade-in-up   { animation: fadeInUp  0.7s ease-out both; }
+.animation-delay-200  { animation-delay: 0.2s; }
+.animation-delay-400  { animation-delay: 0.4s; }
+.animation-delay-600  { animation-delay: 0.6s; }
