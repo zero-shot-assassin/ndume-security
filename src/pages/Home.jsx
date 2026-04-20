@@ -111,10 +111,10 @@ export default function Home() {
       <section
         className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(6,13,33,0.88), rgba(6,13,33,0.80)), url('https://images.pexels.com/photos/34585117/pexels-photo-34585117.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
+          backgroundImage: `linear-gradient(rgba(6,13,33,0.65), rgba(6,13,33,0.50)), url('https://images.pexels.com/photos/34585117/pexels-photo-34585117.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
-        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center pt-32 pb-20">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center pt-32 pb-52 md:pb-28">
           <div className="animate-fade-in-down inline-flex items-center gap-2 bg-gold-500/20 border border-gold-500/40 text-gold-400 text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-6">
             <Shield size={14} />
             PSRA Licensed · Kenya Registered · Since 2008
