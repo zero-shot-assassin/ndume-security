@@ -3,10 +3,10 @@ import { Shield, Target, Eye, Heart, CheckCircle, ArrowRight, Award } from 'luci
 
 const leadership = [
   {
-    name: 'Col. (Rtd.) David Mwangi',
+    name: 'Col. (Rtd.) Duncan Oganga',
     title: 'Chief Executive Officer',
-    bio: 'A retired Kenya Army Colonel with 28 years of distinguished military service. David founded Ndume Security in 2008 with a mission to bring military-grade discipline and professionalism to the private security sector in Kenya.',
-    initials: 'DM',
+    bio: 'A retired Kenya Army Colonel with 28 years of distinguished military service. Duncan founded Ndume Security in 2008 with a mission to bring military-grade discipline and professionalism to the private security sector in Kenya.',
+    initials: 'DO',
   },
   {
     name: 'Grace Wanjiku',
@@ -69,7 +69,7 @@ export default function About() {
       <section
         className="pt-40 pb-20 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(6,13,33,0.90), rgba(6,13,33,0.85)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80')`,
+          backgroundImage: `linear-gradient(rgba(6,13,33,0.90), rgba(6,13,33,0.85)), url('https://images.pexels.com/photos/7714702/pexels-photo-7714702.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
         <div className="max-w-5xl mx-auto px-4 text-center">
@@ -94,7 +94,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Ndume Security was founded in 2008 by Colonel (Rtd.) David Mwangi following a distinguished 28-year career in the Kenya Army. Recognising a critical gap in professional, disciplined private security services across Nairobi, he assembled a founding team of twelve vetted officers and established operations from a modest office in Industrial Area.
+                  Ndume Security was founded in 2008 by Colonel (Rtd.) Duncan Oganga following a distinguished 28-year career in the Kenya Army. Recognising a critical gap in professional, disciplined private security services across Nairobi, he assembled a founding team of twelve vetted officers and established operations from a modest office in Industrial Area.
                 </p>
                 <p>
                   The name <strong className="text-navy-800">Ndume</strong> — Swahili for "bull" — was chosen deliberately. It represents strength, steadfastness, and the protective instinct. These qualities are not just brand words at Ndume; they are operational standards embedded in every training module, deployment protocol, and client interaction.
@@ -109,7 +109,7 @@ export default function About() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80"
+                src="https://images.pexels.com/photos/5466279/pexels-photo-5466279.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
                 alt="Ndume Security Command Centre"
                 className="rounded-2xl w-full object-cover h-[480px] shadow-xl"
               />

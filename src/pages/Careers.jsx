@@ -140,7 +140,7 @@ export default function Careers() {
       <section
         className="pt-40 pb-20 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(6,13,33,0.90), rgba(6,13,33,0.85)), url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1600&q=80')`,
+          backgroundImage: `linear-gradient(rgba(6,13,33,0.90), rgba(6,13,33,0.85)), url('https://images.pexels.com/photos/9487241/pexels-photo-9487241.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
         <div className="max-w-5xl mx-auto px-4 text-center">

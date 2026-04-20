@@ -39,9 +39,9 @@ export default function Navbar() {
       <div className="bg-navy-700 hidden md:block">
         <div className="max-w-7xl mx-auto px-4 py-1.5 flex justify-between items-center text-xs text-gray-300">
           <span>Licenced by the Private Security Regulatory Authority (PSRA) – Kenya</span>
-          <a href="tel:+254700123456" className="flex items-center gap-1 hover:text-gold-400 transition-colors">
+          <a href="tel:+254725290785" className="flex items-center gap-1 hover:text-gold-400 transition-colors">
             <Phone size={12} />
-            <span>24/7 Emergency: +254 700 123 456</span>
+            <span>24/7 Emergency: +254 725 290 785</span>
           </a>
         </div>
       </div>
@@ -115,8 +115,8 @@ export default function Navbar() {
             </Link>
           </nav>
           <div className="mt-4 pt-4 border-t border-navy-700 text-gray-400 text-xs">
-            <a href="tel:+254700123456" className="flex items-center gap-2 hover:text-gold-400">
-              <Phone size={13} /> 24/7 Emergency: +254 700 123 456
+            <a href="tel:+254725290785" className="flex items-center gap-2 hover:text-gold-400">
+              <Phone size={13} /> 24/7 Emergency: +254 725 290 785
             </a>
           </div>
         </div>

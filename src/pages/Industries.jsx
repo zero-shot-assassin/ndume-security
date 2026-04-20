@@ -28,7 +28,7 @@ We understand that corporate security is not just about physical protection — 
       'Incident reporting and security audit trails',
     ],
     clients: 'Banks, law firms, NGOs, insurance companies, tech hubs, and multinational offices.',
-    bgImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80',
+    bgImage: 'https://images.pexels.com/photos/5466279/pexels-photo-5466279.jpeg?auto=compress&cs=tinysrgb&w=1200&h=700&dpr=1',
   },
   {
     id: 'residential',
@@ -53,7 +53,7 @@ Our residential security model combines stationed guards, mobile patrols, CCTV m
       'Residents\' emergency panic response service',
     ],
     clients: 'Gated estates, apartment blocks, townhouse complexes, and high-net-worth private residences.',
-    bgImage: 'https://images.unsplash.com/photo-1560184897-ae75f418493e?w=1200&q=80',
+    bgImage: 'https://images.pexels.com/photos/7714709/pexels-photo-7714709.jpeg?auto=compress&cs=tinysrgb&w=1200&h=700&dpr=1',
   },
   {
     id: 'retail',
@@ -78,7 +78,7 @@ We strike the critical balance between visible deterrence and welcoming customer
       'After-hours alarm response and locking services',
     ],
     clients: 'Supermarkets, shopping malls, hotels, restaurants, petrol stations, and fashion retail chains.',
-    bgImage: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80',
+    bgImage: 'https://images.pexels.com/photos/34345216/pexels-photo-34345216.jpeg?auto=compress&cs=tinysrgb&w=1200&h=700&dpr=1',
   },
   {
     id: 'construction',
@@ -103,7 +103,7 @@ Ndume Security specialises in construction site security, providing vetted guard
       'Material inventory security protocols',
     ],
     clients: 'Property developers, civil engineering contractors, quarrying operations, and manufacturing plants.',
-    bgImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80',
+    bgImage: 'https://images.pexels.com/photos/7714736/pexels-photo-7714736.jpeg?auto=compress&cs=tinysrgb&w=1200&h=700&dpr=1',
   },
   {
     id: 'government',
@@ -128,7 +128,7 @@ Our officers assigned to government and institutional contracts receive addition
       'Compliance reporting aligned with government procurement standards',
     ],
     clients: 'County governments, parastatals, public hospitals, universities, and national government agencies.',
-    bgImage: 'https://images.unsplash.com/photo-1575505586569-646b2ca898fc?w=1200&q=80',
+    bgImage: 'https://images.pexels.com/photos/7714723/pexels-photo-7714723.jpeg?auto=compress&cs=tinysrgb&w=1200&h=700&dpr=1',
   },
 ]
 
@@ -139,7 +139,7 @@ export default function Industries() {
       <section
         className="pt-40 pb-20 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(6,13,33,0.90), rgba(6,13,33,0.85)), url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80')`,
+          backgroundImage: `linear-gradient(rgba(6,13,33,0.90), rgba(6,13,33,0.85)), url('https://images.pexels.com/photos/7714702/pexels-photo-7714702.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
         <div className="max-w-5xl mx-auto px-4 text-center">

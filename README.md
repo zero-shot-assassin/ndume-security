@@ -112,9 +112,9 @@ Or connect via [vercel.com](https://vercel.com) → **Import Git Repository**.
 ## Contact Details (Mock — Update Before Launch)
 
 - **Address:** 7th Floor, Westlands Commerce Centre, Waiyaki Way, Westlands, Nairobi
-- **Phone:** +254 700 123 456 / +254 733 456 789
+- **Phone:** +254 725 290 785 / +254 733 456 789
 - **Email:** info@ndumesecurity.co.ke
-- **Emergency Line:** +254 700 123 456 (24/7)
+- **Emergency Line:** +254 725 290 785 (24/7)
 
 ---
 

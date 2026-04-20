@@ -36,7 +36,7 @@ export default function Contact() {
       <section
         className="pt-40 pb-20 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(6,13,33,0.90), rgba(6,13,33,0.85)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&q=80')`,
+          backgroundImage: `linear-gradient(rgba(6,13,33,0.90), rgba(6,13,33,0.85)), url('https://images.pexels.com/photos/7714695/pexels-photo-7714695.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
         <div className="max-w-5xl mx-auto px-4 text-center">
@@ -55,8 +55,8 @@ export default function Contact() {
             {
               icon: Phone,
               label: '24/7 Emergency',
-              value: '+254 700 123 456',
-              link: 'tel:+254700123456',
+              value: '+254 725 290 785',
+              link: 'tel:+254725290785',
             },
             {
               icon: Phone,
@@ -116,7 +116,7 @@ export default function Contact() {
                 <CheckCircle size={48} className="text-green-500 mx-auto mb-4" />
                 <h3 className="font-heading font-bold text-green-800 text-xl mb-2">Quote Request Received!</h3>
                 <p className="text-green-700 text-sm">
-                  Thank you for your inquiry. A Ndume Security consultant will reach you within 4 business hours. For urgent matters, call <a href="tel:+254700123456" className="font-bold underline">+254 700 123 456</a>.
+                  Thank you for your inquiry. A Ndume Security consultant will reach you within 4 business hours. For urgent matters, call <a href="tel:+254725290785" className="font-bold underline">+254 725 290 785</a>.
                 </p>
               </div>
             ) : (

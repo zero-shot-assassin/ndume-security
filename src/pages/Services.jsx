@@ -141,7 +141,7 @@ export default function Services() {
       <section
         className="pt-40 pb-20 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(6,13,33,0.92), rgba(6,13,33,0.88)), url('https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=1600&q=80')`,
+          backgroundImage: `linear-gradient(rgba(6,13,33,0.92), rgba(6,13,33,0.88)), url('https://images.pexels.com/photos/7714740/pexels-photo-7714740.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
         <div className="max-w-5xl mx-auto px-4 text-center">

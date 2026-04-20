@@ -103,7 +103,7 @@ export default function Footer() {
             <li className="flex items-center gap-3">
               <Phone size={16} className="text-gold-500 shrink-0" />
               <div>
-                <a href="tel:+254700123456" className="hover:text-gold-400 transition-colors block">+254 700 123 456</a>
+                <a href="tel:+254725290785" className="hover:text-gold-400 transition-colors block">+254 725 290 785</a>
                 <a href="tel:+254733456789" className="hover:text-gold-400 transition-colors block">+254 733 456 789</a>
               </div>
             </li>
@@ -116,8 +116,8 @@ export default function Footer() {
           </ul>
           <div className="mt-5 bg-navy-700 rounded-lg p-3 text-xs text-gray-400">
             <span className="text-gold-400 font-semibold block mb-1">24/7 Emergency Line</span>
-            <a href="tel:+254700123456" className="text-white font-bold text-lg hover:text-gold-400 transition-colors">
-              +254 700 123 456
+            <a href="tel:+254725290785" className="text-white font-bold text-lg hover:text-gold-400 transition-colors">
+              +254 725 290 785
             </a>
           </div>
         </div>

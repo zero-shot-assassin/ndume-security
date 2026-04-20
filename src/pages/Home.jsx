@@ -111,7 +111,7 @@ export default function Home() {
       <section
         className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(6,13,33,0.88), rgba(6,13,33,0.80)), url('https://images.unsplash.com/photo-1565514158740-064f34bd6cfd?w=1600&q=80')`,
+          backgroundImage: `linear-gradient(rgba(6,13,33,0.88), rgba(6,13,33,0.80)), url('https://images.pexels.com/photos/7714695/pexels-photo-7714695.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
         <div className="relative z-10 max-w-5xl mx-auto px-4 text-center pt-32 pb-20">
@@ -257,7 +257,7 @@ export default function Home() {
             </div>
             <div className="reveal-right relative">
               <img
-                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=700&q=80"
+                src="https://images.pexels.com/photos/7714710/pexels-photo-7714710.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1"
                 alt="Professional security team"
                 className="rounded-2xl w-full object-cover h-[420px] shadow-2xl"
               />
@@ -366,7 +366,7 @@ export default function Home() {
       <section
         className="py-20 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(6,13,33,0.92), rgba(6,13,33,0.92)), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80')`,
+          backgroundImage: `linear-gradient(rgba(6,13,33,0.92), rgba(6,13,33,0.92)), url('https://images.pexels.com/photos/7714723/pexels-photo-7714723.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
         <div className="max-w-4xl mx-auto px-4 text-center">
