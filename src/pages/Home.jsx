@@ -109,41 +109,43 @@ export default function Home() {
     <>
       {/* HERO */}
       <section
-        className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+        className="relative min-h-screen flex flex-col bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `linear-gradient(rgba(6,13,33,0.65), rgba(6,13,33,0.50)), url('https://images.pexels.com/photos/34585117/pexels-photo-34585117.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
-        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center pt-32 pb-52 md:pb-28">
-          <div className="animate-fade-in-down inline-flex items-center gap-2 bg-gold-500/20 border border-gold-500/40 text-gold-400 text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-6">
-            <Shield size={14} />
-            PSRA Licensed · Kenya Registered · Since 2008
-          </div>
-          <h1 className="animate-fade-in-up animation-delay-200 font-heading font-extrabold text-white text-4xl md:text-6xl lg:text-7xl leading-tight mb-6">
-            Guarding What
-            <span className="text-gold-400 block">Matters Most.</span>
-          </h1>
-          <p className="animate-fade-in-up animation-delay-400 text-gray-300 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
-            Ndume Security is Kenya's foremost private security company. We protect corporations, residences, and government facilities with elite officers, cutting-edge technology, and unwavering commitment.
-          </p>
-          <div className="animate-fade-in-up animation-delay-600 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/contact"
-              className="bg-gold-500 hover:bg-gold-600 text-navy-900 font-bold px-8 py-4 rounded text-sm tracking-wide uppercase transition-colors duration-200 flex items-center justify-center gap-2"
-            >
-              Request a Free Quote <ArrowRight size={16} />
-            </Link>
-            <Link
-              to="/services"
-              className="border-2 border-white/40 text-white hover:border-gold-400 hover:text-gold-400 font-bold px-8 py-4 rounded text-sm tracking-wide uppercase transition-colors duration-200"
-            >
-              Our Services
-            </Link>
+        <div className="flex-1 flex items-center justify-center relative z-10">
+          <div className="max-w-5xl mx-auto px-4 text-center pt-32 pb-10">
+            <div className="animate-fade-in-down inline-flex items-center gap-2 bg-gold-500/20 border border-gold-500/40 text-gold-400 text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-6">
+              <Shield size={14} />
+              PSRA Licensed · Kenya Registered · Since 2008
+            </div>
+            <h1 className="animate-fade-in-up animation-delay-200 font-heading font-extrabold text-white text-4xl md:text-6xl lg:text-7xl leading-tight mb-6">
+              Guarding What
+              <span className="text-gold-400 block">Matters Most.</span>
+            </h1>
+            <p className="animate-fade-in-up animation-delay-400 text-gray-300 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
+              Ndume Security is Kenya's foremost private security company. We protect corporations, residences, and government facilities with elite officers, cutting-edge technology, and unwavering commitment.
+            </p>
+            <div className="animate-fade-in-up animation-delay-600 flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                to="/contact"
+                className="bg-gold-500 hover:bg-gold-600 text-navy-900 font-bold px-8 py-4 rounded text-sm tracking-wide uppercase transition-colors duration-200 flex items-center justify-center gap-2"
+              >
+                Request a Free Quote <ArrowRight size={16} />
+              </Link>
+              <Link
+                to="/services"
+                className="border-2 border-white/40 text-white hover:border-gold-400 hover:text-gold-400 font-bold px-8 py-4 rounded text-sm tracking-wide uppercase transition-colors duration-200"
+              >
+                Our Services
+              </Link>
+            </div>
           </div>
         </div>
 
         {/* Stats bar */}
-        <div className="absolute bottom-0 left-0 right-0 bg-navy-900/90 backdrop-blur-sm border-t border-navy-700">
+        <div className="relative z-10 bg-navy-900/90 backdrop-blur-sm border-t border-navy-700">
           <div className="max-w-5xl mx-auto px-4 py-5 grid grid-cols-2 md:grid-cols-4 gap-4">
             {stats.map((s) => (
               <div key={s.label} className="text-center">
