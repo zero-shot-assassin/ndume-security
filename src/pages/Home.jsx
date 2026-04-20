@@ -111,7 +111,7 @@ export default function Home() {
       <section
         className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(6,13,33,0.88), rgba(6,13,33,0.80)), url('https://images.pexels.com/photos/7714695/pexels-photo-7714695.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
+          backgroundImage: `linear-gradient(rgba(6,13,33,0.88), rgba(6,13,33,0.80)), url('https://images.pexels.com/photos/34585117/pexels-photo-34585117.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1')`,
         }}
       >
         <div className="relative z-10 max-w-5xl mx-auto px-4 text-center pt-32 pb-20">
