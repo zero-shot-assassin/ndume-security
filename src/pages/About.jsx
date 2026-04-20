@@ -3,10 +3,10 @@ import { Shield, Target, Eye, Heart, CheckCircle, ArrowRight, Award } from 'luci
 
 const leadership = [
   {
-    name: 'Col. (Rtd.) Duncan Oganga',
+    name: 'Col. (Rtd.) Philip Oganga',
     title: 'Chief Executive Officer',
-    bio: 'A retired Kenya Army Colonel with 28 years of distinguished military service. Duncan founded Ndume Security in 2008 with a mission to bring military-grade discipline and professionalism to the private security sector in Kenya.',
-    initials: 'DO',
+    bio: 'A retired Kenya Army Colonel with 28 years of distinguished military service. Philip founded Ndume Security in 2008 with a mission to bring military-grade discipline and professionalism to the private security sector in Kenya.',
+    initials: 'PO',
   },
   {
     name: 'Grace Wanjiku',
@@ -94,7 +94,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Ndume Security was founded in 2008 by Colonel (Rtd.) Duncan Oganga following a distinguished 28-year career in the Kenya Army. Recognising a critical gap in professional, disciplined private security services across Nairobi, he assembled a founding team of twelve vetted officers and established operations from a modest office in Industrial Area.
+                  Ndume Security was founded in 2008 by Colonel (Rtd.) Philip Oganga following a distinguished 28-year career in the Kenya Army. Recognising a critical gap in professional, disciplined private security services across Nairobi, he assembled a founding team of twelve vetted officers and established operations from a modest office in Industrial Area.
                 </p>
                 <p>
                   The name <strong className="text-navy-800">Ndume</strong> — Swahili for "bull" — was chosen deliberately. It represents strength, steadfastness, and the protective instinct. These qualities are not just brand words at Ndume; they are operational standards embedded in every training module, deployment protocol, and client interaction.
