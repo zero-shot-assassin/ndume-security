@@ -54,29 +54,10 @@ Officers complete written patrol reports at each visit, which are compiled and s
       'Fleet of GPS-tracked, branded patrol vehicles',
       'Scheduled and randomised patrol routes',
       'Written and digital patrol reports per visit',
-      'Access to armed response vehicle if triggered',
       'Coverage across Nairobi, Kiambu, Machakos, and Kajiado',
       'Available as standalone service or complement to guarding',
     ],
     suitable: 'Industrial parks, agricultural properties, construction sites, residential clusters, and commercial strips.',
-  },
-  {
-    id: 'alarm-response',
-    icon: Bell,
-    title: 'Alarm Response',
-    tagline: 'Fast. Armed. Reliable.',
-    description: `When your alarm activates — whether from intruder detection, panic button, or perimeter breach — Ndume's armed response team is dispatched immediately. Our units are strategically positioned across Nairobi for maximum coverage and minimum response time.
-
-We work with all major alarm panel brands including Texecom, DSC, and Paradox, and can integrate our monitoring with your existing alarm infrastructure. Licensed firearms are carried by all armed response officers in compliance with the Firearms Act (Cap. 114) of Kenya.`,
-    features: [
-      'Average response time under 8 minutes in Nairobi',
-      'Licensed armed response officers',
-      'Integration with all major alarm panel brands',
-      '24/7 monitoring desk linked to response fleet',
-      'Panic button response for personal and vehicle alarms',
-      'Incident report submitted within 2 hours of every response',
-    ],
-    suitable: 'Residences, SME offices, retail outlets, pharmacies, and any CCTV or alarm-monitored property.',
   },
   {
     id: 'risk-assessment',

@@ -96,7 +96,7 @@ Ndume Security specialises in construction site security, providing vetted guard
       'Worker welfare and on-site incident management',
     ],
     solutions: [
-      'Armed and unarmed guards for all entry and exit points',
+      'Uniformed guards for all entry and exit points',
       'Contractor and worker identity verification system',
       'Solar-powered CCTV for off-grid sites',
       'Mobile patrol coverage for large site perimeters',

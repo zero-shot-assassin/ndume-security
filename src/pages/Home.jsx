@@ -22,11 +22,6 @@ const services = [
     desc: 'Marked patrol vehicles conducting scheduled and random checks across your properties in Nairobi and surrounding counties, ensuring visible deterrence.',
   },
   {
-    icon: Bell,
-    title: 'Alarm Response',
-    desc: 'Industry-leading response times to triggered alarms. Our armed response units are strategically positioned across Nairobi for rapid dispatch.',
-  },
-  {
     icon: ClipboardList,
     title: 'Risk Assessment',
     desc: 'Comprehensive security audits conducted by certified specialists. We identify vulnerabilities and deliver actionable mitigation strategies.',
@@ -89,10 +84,6 @@ const faqs = [
   {
     q: 'Are your security officers licensed by PSRA?',
     a: 'Yes. All Ndume Security officers hold valid PSRA licences and undergo background checks, vetting, and refresher training every six months as required by Kenyan law.',
-  },
-  {
-    q: 'Do you provide armed security?',
-    a: 'Yes. We provide licensed armed response and armed escort services in compliance with the Firearms Act (Cap. 114) of Kenya. All armed officers are certified by the relevant authorities.',
   },
   {
     q: 'What counties do you operate in?',
@@ -239,7 +230,7 @@ export default function Home() {
                   { title: 'Fully Vetted Officers', desc: 'Every officer undergoes criminal background checks, psychometric testing, and at least 240 hours of PSRA-certified training.' },
                   { title: 'Technology-Backed Operations', desc: 'Our command centre in Westlands, Nairobi runs 24/7 CCTV monitoring, GPS patrol tracking, and real-time incident reporting.' },
                   { title: 'Local Expertise', desc: 'We understand Kenya\'s unique security landscape — from CBD operations to Karen estates and industrial park challenges in Athi River.' },
-                  { title: 'Rapid Emergency Response', desc: 'Our armed response units are deployed strategically across Nairobi for average response times under 8 minutes.' },
+                  { title: 'Rapid Emergency Response', desc: 'Our mobile patrol units and stationed guards are deployed strategically across Nairobi for rapid incident response and escalation management.' },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
                     <CheckCircle size={20} className="text-gold-500 shrink-0 mt-0.5" />
