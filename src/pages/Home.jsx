@@ -22,6 +22,11 @@ const services = [
     desc: 'Marked patrol vehicles conducting scheduled and random checks across your properties in Nairobi and surrounding counties, ensuring visible deterrence.',
   },
   {
+    icon: Bell,
+    title: 'Alarm Monitoring & Installation',
+    desc: '24/7 alarm monitoring with rapid mobile patrol response. We integrate with all major alarm brands and provide full installation services.',
+  },
+  {
     icon: ClipboardList,
     title: 'Risk Assessment',
     desc: 'Comprehensive security audits conducted by certified specialists. We identify vulnerabilities and deliver actionable mitigation strategies.',

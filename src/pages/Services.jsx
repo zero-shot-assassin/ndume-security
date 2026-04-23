@@ -60,6 +60,24 @@ Officers complete written patrol reports at each visit, which are compiled and s
     suitable: 'Industrial parks, agricultural properties, construction sites, residential clusters, and commercial strips.',
   },
   {
+    id: 'alarm-monitoring',
+    icon: Bell,
+    title: 'Alarm Monitoring & Installation',
+    tagline: 'Fast Response. 24/7 Monitoring.',
+    description: `When your alarm activates — whether from intruder detection, panic button, or perimeter breach — Ndume's monitoring team is alerted immediately and dispatches our mobile patrol units to your location. Our 24/7 command centre monitors all alarm activations and coordinates rapid response across Nairobi and surrounding counties.
+
+We work with all major alarm panel brands including Texecom, DSC, and Paradox, and can integrate our monitoring with your existing alarm infrastructure. We also provide full alarm system installation services for new clients.`,
+    features: [
+      'Average response time under 10 minutes in Nairobi',
+      '24/7 monitoring desk linked to mobile patrol fleet',
+      'Integration with all major alarm panel brands',
+      'Panic button response for personal and vehicle alarms',
+      'Full alarm system installation and maintenance',
+      'Incident report submitted within 2 hours of every activation',
+    ],
+    suitable: 'Residences, SME offices, retail outlets, pharmacies, and any property requiring alarm monitoring.',
+  },
+  {
     id: 'risk-assessment',
     icon: ClipboardList,
     title: 'Risk Assessment',
